@@ -1,0 +1,6 @@
+---
+# tasks file for kumar
+- include: install-apache.yml
+- include: start-apache.yml
+- include: install-php.yml
+- include: deploy-app.yml
